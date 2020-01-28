@@ -70,10 +70,6 @@ input[type=“radio”].visually-hidden {
 
 }
 
-.secondsection {
-    margin: 0 auto;
-}
-
 .navigation {
     float: right;
     padding: 0;
@@ -172,9 +168,6 @@ input[type=“radio”].visually-hidden {
     padding-top: 8px;
 }
 
-.firstbottom {
-    margin: 0 auto;
-}
 
 .ulbottom {
     list-style-type: none;
@@ -258,4 +251,9 @@ input[type=“radio”].visually-hidden {
 
 .wrapper img {
     display: block;
+}
+
+.section-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
 }
