@@ -1,8 +1,8 @@
-/* * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} */
+}
 
 .visually-hidden:not(:focus):not(:active),
 input[type=“checkbox”].visually-hidden,
@@ -24,16 +24,20 @@ input[type=“radio”].visually-hidden {
     padding: 0;
 }
 
-.clearfix::after {
-    display: table;
-    content: '';
-    clear: both;
+
+.header {
+    padding: 40px 0;
 }
 
 .container {
     width: 1110px;
     margin: 0 auto;
+}
 
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
 }
 
 .logo {
@@ -51,7 +55,6 @@ input[type=“radio”].visually-hidden {
     font-weight: 900;
 }
 
-
 .navigation {
     float: right;
     padding: 0;
@@ -67,35 +70,6 @@ input[type=“radio”].visually-hidden {
 
 .navigation li:not(:last-child) {
     margin-right: 40px;
-
-}
-
-.header {
-    padding: 40px 0;
-}
-
-.feature {
-    font-family: "Roboto";
-    font-weight: 900;
-    font-size: 48px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #515151;
-    padding-top: 100px;
-    margin-bottom: 120px;
-
-}
-
-.feature::after {
-    display: block;
-    content: "";
-    height: 6px;
-    width: 160px;
-    background: #85dbca;
-    margin: 0 auto;
-    margin-top: 30px;
-
-
 }
 
 .menu {
@@ -121,7 +95,6 @@ input[type=“radio”].visually-hidden {
     max-width: 100%;
     height: auto;
 }
-
 
 .slide-text {
     position: absolute;
@@ -167,14 +140,37 @@ input[type=“radio”].visually-hidden {
     right: 0;
     background-image: url(../img/right.png);
     border: none;
-
 }
 
 .slider-ctrl-left {
     background-image: url(../img/left.png);
     left: 0;
     border: none;
+}
 
+.items {
+    background-color: #e9f0fd
+}
+
+.feature {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #515151;
+    padding-top: 100px;
+    margin-bottom: 120px;
+}
+
+.feature::after {
+    display: block;
+    content: "";
+    height: 6px;
+    width: 160px;
+    background: #85dbca;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .elements {
@@ -187,7 +183,28 @@ input[type=“radio”].visually-hidden {
     margin-right: 24px;
 }
 
-.overlay {}
+.buttons-bottom {
+    left: 0;
+    border: none;
+}
+
+
+
+ .add {
+    height: 50px;
+    width: 166px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;    
+    height: ;
+    color: #ffffff;
+} 
+
+.add{
+    background-image: url(../img/icons/add.png);
+    background-color: #323232;
+    background-repeat: no-repeat;
+}
 
 .name {
     float: left;
@@ -195,7 +212,7 @@ input[type=“radio”].visually-hidden {
     font-weight: 900;
     font-size: 18px;
     text-transform: uppercase;
-    /* color: #ffffff; */
+    color: #ffffff;
     color: black;
     padding-top: 100px;
     margin-bottom: 120px;
@@ -206,18 +223,37 @@ input[type=“radio”].visually-hidden {
 
 .price {
     float: right;
-    font-family: "Roboto";
-    font-weight: 900;
-    font-size: 18px;
-    /* color: #ffffff; */
-    color: black;
+    height: 100%;
+    width: 54px;
+    bottom: 0;
+    color: white;
+    text-transform: uppercase;
     background-color: rgba(255, 255, 255, .5);
-    ;
-
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 900;
+    right: 0;
+    padding: 10px;
+    padding-bottom: 10px;
+    color: black;
 }
 
-.items {
-    background-color: #e9f0fd
+.name:hover {
+    color: #1abc9c;
 }
 
-. . . . . . . . .
+.price:hover {
+    color: #7fd9c7;
+}
+
+.center {
+    width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 104px;
+ }
+
+ .overlay{
+     display: none;
+ }
+
+
