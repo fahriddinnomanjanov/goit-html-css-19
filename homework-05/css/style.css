@@ -85,8 +85,6 @@ input[type=“radio”].visually-hidden {
 }
 
 .slider {
-    height: 600px;
-    width: 100%;
     position: relative;
     display: block;
 }
@@ -198,27 +196,39 @@ input[type=“radio”].visually-hidden {
     text-transform: uppercase;    
     height: ;
     color: #ffffff;
-} 
-
-.add{
     background-image: url(../img/icons/add.png);
     background-color: #323232;
     background-repeat: no-repeat;
+    background-position: left;
+    border: 1px solid white;
+    font-family: 'OpenSans' serif;
+    font-weight: 400;
+    padding-left: 20px;
+    cursor: pointer;
+    background-position: 10px;
+    font-size: 14px;
+} 
+
+.add{
+  
 }
 
 .name {
     float: left;
     font-family: "Roboto";
     font-weight: 900;
+    bottom: 0;
     font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
-    color: black;
     padding-top: 100px;
     margin-bottom: 120px;
     text-decoration: none;
     padding-top: 10px;
     padding-left: 10px;
+    background-color: #323232;
+    height: 40px;
+    width: 200px;
 }
 
 .price {
@@ -228,22 +238,21 @@ input[type=“radio”].visually-hidden {
     bottom: 0;
     color: white;
     text-transform: uppercase;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: #8c8c8c;
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 900;
     right: 0;
     padding: 10px;
     padding-bottom: 10px;
-    color: black;
 }
 
 .name:hover {
-    color: #1abc9c;
+    background-color: #1abc9c;
 }
 
 .price:hover {
-    color: #7fd9c7;
+    background-color: #7fd9c7;
 }
 
 .center {
@@ -252,8 +261,45 @@ input[type=“radio”].visually-hidden {
     padding-bottom: 104px;
  }
 
- .overlay{
+ /* .overlay{
      display: none;
- }
+ } */
+  
+ .div-bottom-clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
 
+.heart{
+    background-image: url(../img/icons/hurt.png);
+}
+
+.arrow{
+    background-image: url(../img/icons/arrow.png);}
+
+.clock{
+    background-image: url(../img/icons/clock.png);
+}
+
+.buttons{
+    display: inline-block;
+    color: #323232;
+    height: 50px;
+    width: 50px;
+    background-color: #323232;
+    /* background-color: transparent; */
+    background-repeat: no-repeat;
+    /* position: relative; */
+    border: 1px solid white;
+    background-position: center;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-bottom: 8px;
+
+}
+
+.buttons:hover{
+    background-color: #1abc9c;
+}
 
