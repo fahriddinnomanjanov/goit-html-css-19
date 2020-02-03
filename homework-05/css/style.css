@@ -196,6 +196,9 @@ input[type=“radio”].visually-hidden {
     text-transform: uppercase;    
     height: ;
     color: #ffffff;
+} 
+
+.add{
     background-image: url(../img/icons/add.png);
     background-color: #323232;
     background-repeat: no-repeat;
@@ -207,10 +210,6 @@ input[type=“radio”].visually-hidden {
     cursor: pointer;
     background-position: 10px;
     font-size: 14px;
-} 
-
-.add{
-  
 }
 
 .name {
@@ -261,11 +260,11 @@ input[type=“radio”].visually-hidden {
     padding-bottom: 104px;
  }
 
- /* .overlay{
+ .overlay{
      display: none;
- } */
+ }
   
- .div-bottom-clearfix::after {
+ .clearfix::after {
     display: table;
     content: '';
     clear: both;
@@ -302,4 +301,5 @@ input[type=“radio”].visually-hidden {
 .buttons:hover{
     background-color: #1abc9c;
 }
+
 
