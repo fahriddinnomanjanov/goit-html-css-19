@@ -24,7 +24,6 @@ input[type=“radio”].visually-hidden {
     padding: 0;
 }
 
-
 .header {
     padding: 40px 0;
 }
@@ -117,6 +116,13 @@ input[type=“radio”].visually-hidden {
     font-size: 24px;
 }
 
+.slider-buttons {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .slider-ctrl {
     position: absolute;
     background-color: rgb(78, 198, 171);
@@ -125,13 +131,6 @@ input[type=“radio”].visually-hidden {
     width: 104px;
     height: 104px;
     background-repeat: no-repeat;
-}
-
-.slider-buttons {
-    position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .slider-ctrl-right {
@@ -171,6 +170,12 @@ input[type=“radio”].visually-hidden {
     margin-top: 30px;
 }
 
+.center {
+    width: 1110px;
+    margin: 0 auto;
+    padding-bottom: 104px;
+}
+
 .elements {
     position: relative;
     display: inline-block;
@@ -181,36 +186,70 @@ input[type=“radio”].visually-hidden {
     margin-right: 24px;
 }
 
+.all:hover .add {
+    background-color: rgb(26, 188, 156);
+}
+
+.div-up {
+    position: relative;
+    height: 322px;
+}
+
+.overlay {
+    background-clip: padding-box;
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgb(255, 255, 255, .3);
+    top: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, .549);
+    /* display: none; */
+}
+
 .buttons-bottom {
     left: 0;
     border: none;
 }
 
+.heart {
+    background-image: url(../img/icons/hurt.png);
+}
 
+.arrow {
+    background-image: url(../img/icons/arrow.png);
+}
 
- .add {
+.clock {
+    background-image: url(../img/icons/clock.png);
+}
+
+.add {
     height: 50px;
     width: 166px;
     text-align: center;
     margin: 0 auto;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     height: ;
     color: #ffffff;
-} 
+}
 
-.add{
+.add {
     background-image: url(../img/icons/add.png);
     background-color: #323232;
     background-repeat: no-repeat;
     background-position: left;
     border: 1px solid white;
-    font-family: 'OpenSans' serif;
+    font-family: 'OpenSans'serif;
     font-weight: 400;
     padding-left: 20px;
     cursor: pointer;
     background-position: 10px;
     font-size: 14px;
 }
+
+.div-bottom{}
 
 .name {
     float: left;
@@ -253,53 +292,53 @@ input[type=“radio”].visually-hidden {
 .price:hover {
     background-color: #7fd9c7;
 }
-
-.center {
-    width: 1110px;
-    margin: 0 auto;
-    padding-bottom: 104px;
- }
-
- .overlay{
-     display: none;
- }
-  
- .clearfix::after {
-    display: table;
-    content: '';
-    clear: both;
+.add:hover {
+    background-color: rgb(26, 188, 156);
 }
 
-.heart{
-    background-image: url(../img/icons/hurt.png);
-}
-
-.arrow{
-    background-image: url(../img/icons/arrow.png);}
-
-.clock{
-    background-image: url(../img/icons/clock.png);
-}
-
-.buttons{
+.buttons {
     display: inline-block;
-    color: #323232;
     height: 50px;
     width: 50px;
-    background-color: #323232;
-    /* background-color: transparent; */
+    background-color: transparent;
     background-repeat: no-repeat;
-    /* position: relative; */
     border: 1px solid white;
     background-position: center;
     cursor: pointer;
     margin-right: 2px;
     margin-bottom: 8px;
-
 }
 
-.buttons:hover{
+.buttons:hover {
     background-color: #1abc9c;
 }
 
 
+.all:hover .overlay {
+    visibility: visible;
+}
+
+.buttons-bottom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-bottom {
+    height: 90px;
+    background-color: rgb(50, 50, 50);
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-bottom {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 34px;
+}
+
+.text-bottom a {
+    text-decoration: none;
+    color: rgb(70, 191, 169);
+}
