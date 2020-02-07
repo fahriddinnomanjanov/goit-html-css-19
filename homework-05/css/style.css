@@ -125,12 +125,16 @@ input[type=“radio”].visually-hidden {
 
 .slider-ctrl {
     position: absolute;
-    background-color: rgb(78, 198, 171);
+    background-color: #53a08e;
     opacity: 0.651;
     background-position: center;
     width: 104px;
     height: 104px;
     background-repeat: no-repeat;
+}
+
+.slider-ctrl:hover{
+    background-color: #1abc9c;
 }
 
 .slider-ctrl-right {
@@ -184,10 +188,6 @@ input[type=“radio”].visually-hidden {
 
 .elements:not(:nth-child(4n)) {
     margin-right: 24px;
-}
-
-.all:hover .add {
-    background-color: rgb(26, 188, 156);
 }
 
 .div-up {
@@ -266,13 +266,13 @@ input[type=“radio”].visually-hidden {
     padding-left: 10px;
     background-color: #323232;
     height: 40px;
-    width: 200px;
+    width: 201px;
 }
 
 .price {
     float: right;
     height: 100%;
-    width: 54px;
+    width: 55px;
     bottom: 0;
     color: white;
     text-transform: uppercase;
@@ -285,11 +285,11 @@ input[type=“radio”].visually-hidden {
     padding-bottom: 10px;
 }
 
-.name:hover {
+.all:hover .div-bottom .name {
     background-color: #1abc9c;
 }
 
-.price:hover {
+.all:hover .div-bottom .price {
     background-color: #7fd9c7;
 }
 .add:hover {
