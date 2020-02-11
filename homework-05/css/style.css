@@ -91,7 +91,10 @@ input[type=“radio”].visually-hidden {
     border-style: none;
     display: block;
     width: 100%;
-    height: auto;
+    height: 600px;
+    object-fit: cover;
+    
+
 }
 
 .slide-text {
