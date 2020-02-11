@@ -48,7 +48,7 @@ input[type=“radio”].visually-hidden {
     color: black;
 }
 
-.logo-first {
+.logo::first-letter {
     color: #1abc9c;
     font-weight: 900;
 }
@@ -325,7 +325,6 @@ img{
 
 .footer-bottom {
     height: 90px;
-    background-color: rgb(50, 50, 50);
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -339,4 +338,9 @@ img{
 .text-bottom a {
     text-decoration: none;
     color: rgb(70, 191, 169);
+}
+
+.footer-color{
+    background-color: rgb(50, 50, 50);
+
 }
