@@ -100,8 +100,8 @@ input[type=“radio”].visually-hidden {
 .slide-text {
     position: absolute;
     top: 50%;
-    width: 800px;
     left: 50%;
+    width: 800px;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     font-family: "Roboto";
@@ -110,6 +110,8 @@ input[type=“radio”].visually-hidden {
 img{
     border-style: none;
     display: block;
+    width: 100%;
+    height: auto;
 }
 .slide-text h2 {
     font-weight: 900;
@@ -131,8 +133,7 @@ img{
 
 .slider-ctrl {
     position: absolute;
-    background-color: #53a08e;
-    opacity: 0.651;
+    background-color: rgba(83, 162, 143, .65);
     background-position: center;
     width: 104px;
     height: 104px;
@@ -257,7 +258,6 @@ img{
 }
 
 .name {
-    float: left;
     font-family: "Roboto";
     font-weight: 900;
     bottom: 0;
@@ -266,8 +266,11 @@ img{
     color: #ffffff;
     text-decoration: none;
     padding-left: 10px;
-    width: 201px;
     line-height: 40px;
+}
+
+.product-name{
+    float: left;
 }
 
 .price {
