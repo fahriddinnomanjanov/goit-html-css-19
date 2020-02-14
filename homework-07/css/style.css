@@ -1,0 +1,228 @@
+:root{
+    --color-main: #fed136;
+    --main-font-montserrat: "Montserrat", sans-serif;
+    --main-font-roboto: "Roboto Slab", sans-serif;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type=“checkbox”].visually-hidden,
+input[type=“radio”].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+/* ////////////////////////////// HEADER ////////////////////////////// */
+
+header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+
+.navigation-link-menu{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var( --main-font-montserrat);
+    color: #222222;
+    font-weight: 400;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+    list-style: none;
+    align-items: center;
+}
+
+.navigation-link-menu:hover{
+    color: var( --color-main);
+}
+
+/* ////////////////////////////// FIRST SECTION //////////////////////////////  */
+
+.first-section{
+    padding-top: 70px;
+}
+
+.services-title{
+    font-family: var( --main-font-montserrat);    
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+.services-text{
+    font-size: 16px;
+    font-family: var(--main-font-roboto);
+    font-weight: 400;
+    font-style: italic;
+    color: #777777;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.services__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__list-item{
+    list-style: none;
+    width: 290px;
+}
+
+.services__list-item::before{
+    display: block;
+    content: "";
+    width: 72px;
+    height: 71px;
+    border-radius: 50%;
+    border: 3px solid rgb(254, 209, 54);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 26px;
+}
+
+.services__list-item:first-child::before{
+    background-image: url(../img/icons/4Icon-Basket.png);
+}
+
+.services__list-item:nth-child(2)::before{
+    background-image: url(../img/icons/5Icon-Laptop.png);
+}
+
+.services__list-item:last-child::before{
+    background-image: url(../img/icons/6Icon-Locked.png);
+}
+
+.services__list-item-title{
+    font-family: var( --main-font-montserrat);
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.services__list-item-descriptions{
+    font-size: 14px;
+    font-family: var(--main-font-roboto);
+    font-weight: 400;
+    line-height: 25px;
+    color: #777777;
+    padding-bottom: 120px;
+}
+
+/* ////////////////////////////// SECOND SECTION ////////////////////////////// */
+
+.services__title{
+    font-family: var( --main-font-montserrat);    
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+
+.second__section{
+    padding-top: 110px;
+    background-color: rgb(34, 34, 34);
+    background-image: url(../img/background-img/2Map\ Image.png);
+    background-position: right;
+    background-position: right bottom 2 0px;
+    background-repeat: no-repeat;
+}
+
+.social__input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__input-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 210px;
+
+        
+}
+
+  .section-input{
+    font-family: var( --main-font-montserrat); 
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 20px;
+    width: 455px;
+    height: 50px; 
+    border-radius: 3px;
+  }
+
+  .message-bottom{
+    font-family: var( --main-font-montserrat); 
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 455px;
+    height: 210px;
+    text-transform: uppercase;
+    border-radius: 3px;
+  }
+
+  .bottom{
+    font-family: var( --main-font-montserrat); 
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    width: 240px;
+    height: 65px;
+    margin-top: 30px;
+    background-color: var(--color-main);
+    border: none;
+    border-radius: 3px;
+    color: white; 
+    cursor: pointer;
+  }
+
+  .bottom-padding{
+    padding-bottom: 114px;
+  }
+  
