@@ -79,7 +79,6 @@ img{
     width: 100%;
     height: 3px;
     margin: 0 auto;
-    margin-top: 10px;
     background-color: #f38181;
     visibility: hidden;
     position: absolute;
@@ -192,32 +191,26 @@ img{
 
  .alarm::before{
     background-image: url(../img/icons/1ALARM.png);
-    position: absolute;
 }
 
 .line-graphic::before{
    background-image: url(../img/icons/3LINE\ GRAPH.png);
-   position: absolute;
 }
 
 .computer::before{
    background-image: url(../img/icons/5COMPUTER\ _\ OK.png);
-   position: absolute;
 }
 
 .book::before{
    background-image: url(../img/icons/2BOOK\ 2.png);
-   position: absolute;
 }
 
 .home::before{
    background-image: url(../img/icons/4HOME.png);
-   position: absolute;
 }
 
 .image::before{
    background-image: url(../img/icons/6IMAGE.png);
-   position: absolute;
 }
 
  /* //////////////////  SECTION-TOP  /////////////////  */
@@ -257,7 +250,6 @@ img{
 
 .social-list{
     display: flex;
-    justify-content: center;
     list-style: none;
 }
 
@@ -271,10 +263,14 @@ img{
     background-color: rgb(252, 227, 138);
     transition-duration: 200ms;
     cursor: pointer;
+    transition: all 1s linear;
+
 }
 
 .social-list-link:hover{
     background-color: #95e1d3;
+    transition: all 1s linear;
+
 }
 
 .overlay{
@@ -301,6 +297,7 @@ img{
 
 .wrapper-list-item:hover .photo-cards {
     transform: translate(-10px, -10px);
+    transition: all .5s linear;
 }
 
 .photo-cards{
@@ -379,7 +376,7 @@ img{
     color: #cccccc;
   }
   
-  .footer-form{
+.footer-form{
       display: flex;
   }
 
