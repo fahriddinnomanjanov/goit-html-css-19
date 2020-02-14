@@ -123,11 +123,13 @@ img{
     }
  
  .section-direction{
+    display: block;
     font-family: var(--main-font-montserrat);
     font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
     color: rgb(51, 51, 51);
+    margin-top: 32px;
  }
 
  .section-direction::after{
@@ -287,15 +289,14 @@ img{
     left: 0;
     opacity: 0;
     visibility: hidden;  
-    background-clip: padding-box;
     box-shadow: 10px 10px #95e1d3;
-    transform: translate(-10px, -10px);
-    transition: all .5s linear;
 }
 
 .wrapper-list-item:hover .overlay{
     visibility: visible;
     opacity: 1;
+    transform: translate(-10px, -10px);
+    transition: all .5s linear;
 } 
 
 .wrapper-list-item:hover .photo-cards {
