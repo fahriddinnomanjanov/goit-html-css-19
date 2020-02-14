@@ -85,9 +85,6 @@ img{
     position: absolute;
     bottom: -10px;
     transition: all 0.3s ease;
-
-    
-
 }
 
 .navigation-link-manu:hover {
@@ -95,10 +92,6 @@ img{
     transition-duration: 200ms;
     cursor: pointer;
     transition: all 0.3s ease;
-
-    
-    
-
 }
 
 .navigation-link-manu:hover::after{
@@ -145,7 +138,6 @@ img{
      margin: 0 auto;
      margin-top: 35px;
      background-color: rgb(243, 129, 129);
-     
  }
 
  /* //////////////////////////////////////////////// */
@@ -200,27 +192,31 @@ img{
     background-image: url(../img/icons/1ALARM.png);
     position: absolute;
 }
+
 .line-graphic::before{
    background-image: url(../img/icons/3LINE\ GRAPH.png);
    position: absolute;
 }
+
 .computer::before{
    background-image: url(../img/icons/5COMPUTER\ _\ OK.png);
    position: absolute;
 }
+
 .book::before{
    background-image: url(../img/icons/2BOOK\ 2.png);
    position: absolute;
 }
+
 .home::before{
    background-image: url(../img/icons/4HOME.png);
    position: absolute;
 }
+
 .image::before{
    background-image: url(../img/icons/6IMAGE.png);
    position: absolute;
 }
-  
 
  /* //////////////////  SECTION-TOP  /////////////////  */
 
@@ -228,7 +224,6 @@ img{
      margin-top: 54px;
  }
 
- 
  .section-description{
      font-family: var( --main-font-roboto);
      font-weight: 400;
@@ -256,8 +251,8 @@ img{
 .img-wrapper{
     position: relative;
     margin-bottom: 28px;
-
 }
+
 .social-list{
     display: flex;
     justify-content: center;
@@ -314,12 +309,15 @@ img{
 .facebook{
     background-image: url(../img/icons/site-social/1facebook.png);
 }
+
 .twitter{
     background-image: url(../img/icons/site-social/2twitter.png);
 }
+
 .google-plus{
     background-image: url(../img/icons/site-social/3pinterest.png);
 }
+
 .instagram{
     background-image: url(../img/icons/site-social/4instagram.png);
 }
