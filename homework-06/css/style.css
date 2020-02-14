@@ -241,6 +241,7 @@ img{
 
 .wrapper-list-item{
     list-style: none;
+    width: 380px;
 }
 
 .img-wrapper{
