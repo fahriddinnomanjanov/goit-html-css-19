@@ -46,6 +46,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 .logo{
     display: flex;
 }
@@ -160,7 +161,6 @@ header{
     text-align: center;
   }
 
-
 .second__section{
     padding-top: 110px;
     background-color: rgb(34, 34, 34);
@@ -179,9 +179,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 210px;
-
-        
+    height: 210px;   
 }
 
   .section-input{
