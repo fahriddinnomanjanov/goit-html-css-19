@@ -1,17 +1,20 @@
+@import url(./fonts.css);
+
 :root{
     --color-main: rgb(254, 209, 54);
     --main-font-montserrat: 'Montserrat', sans-serif;
     --main-font-roboto: 'Roboto Slab', sans-serif;
+    --main-font-noto: 'Noto Serif';
 }
 
 .visually-hidden:not(:focus):not(:active),
 input[type=“checkbox”].visually-hidden,
 input[type=“radio”].visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
+    width: 0.0625rem;
+    height: 0.0625rem;
+    margin: -0.0625rem;
+    border: 0   ;
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
@@ -32,12 +35,12 @@ img{
 /* ////////////////////////////// HEADER ////////////////////////////// */
 
 header{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .container{
-    width: 940px;
+    width: 58.75rem;
     margin: 0 auto;
 }
 
@@ -54,16 +57,16 @@ header{
 .navigation-link-menu{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: var( --main-font-montserrat);
     color: #222222;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .list-item{
     display: flex;
     justify-content: space-between;
-    width: 490px;
+    width: 30.625rem;
     list-style: none;
     align-items: center;
 }
@@ -75,26 +78,29 @@ header{
 /* ////////////////////////////// FIRST SECTION //////////////////////////////  */
 
 .first-section{
-    padding-top: 70px;
+    padding-top: 4.375rem;
 }
 
 .services-title{
     font-family: var( --main-font-montserrat);    
     font-weight: 700;
+    font-size: 2.5rem;
     text-transform: uppercase;
     color: #222222;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     text-align: center;
+    line-height: 3rem;
   }
 
 .services-text{
-    font-size: 16px;
-    font-family: var(--main-font-roboto);
+    font-size: 1rem;
+    font-family: var(--main-font-noto);
     font-weight: 400;
     font-style: italic;
     color: #777777;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     text-align: center;
+    line-height: 1.1875rem;
 }
 
 .services__list{
@@ -104,20 +110,20 @@ header{
 
 .services__list-item{
     list-style: none;
-    width: 290px;
+    width: 18.125rem;
 }
 
 .services__list-item::before{
     display: block;
     content: "";
-    width: 72px;
-    height: 71px;
+    width: 4.5rem;
+    height: 4.4375rem;
     border-radius: 50%;
     border: 3px solid rgb(254, 209, 54);
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 26px;
+    margin-bottom: 1.625rem;
 }
 
 .services__list-item:first-child::before{
@@ -135,19 +141,19 @@ header{
 .services__list-item-title{
     font-family: var( --main-font-montserrat);
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #222222;
     text-align: center;
-    margin-bottom: 23px;
+    margin-bottom: 1.4375rem;
 }
 
 .services__list-item-descriptions{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: var(--main-font-roboto);
     font-weight: 400;
-    line-height: 25px;
+    line-height: 1.5625rem;
     color: #777777;
-    padding-bottom: 120px;
+    padding-bottom: 7.5rem;
 }
 
 /* ////////////////////////////// SECOND SECTION ////////////////////////////// */
@@ -155,14 +161,17 @@ header{
 .services__title{
     font-family: var( --main-font-montserrat);    
     font-weight: 700;
+    font-size: 2.5rem;
     text-transform: uppercase;
     color: white;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     text-align: center;
+    line-height: 3rem;
+
   }
 
 .second__section{
-    padding-top: 110px;
+    padding-top: 6.875rem;
     background-color: rgb(34, 34, 34);
     background-image: url(../img/background-img/2Map\ Image.png);
     background-repeat: no-repeat;
@@ -178,40 +187,43 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 210px;   
+    height: 13.125rem;   
 }
 
 .section-input{
     font-family: var( --main-font-montserrat); 
     font-weight: 700;
     text-transform: uppercase;
-    padding-left: 20px;
-    width: 455px;
-    height: 50px; 
+    padding-left: 1.25rem;
+    width: 28.4375rem;
+    height: 3.125rem; 
     border-radius: 3px;
   }
 
 .message-bottom{
+    display: block;
     font-family: var( --main-font-montserrat); 
     font-weight: 700;
-    padding-left: 20px;
-    padding-top: 20px;
-    width: 455px;
-    height: 210px;
+    padding-left: 1.25rem;
+    padding-top: 1.25rem;
+    width: 28.4375rem;
+    /* height: 13.125rem; */
     text-transform: uppercase;
     border-radius: 3px;
+    resize: none;
+
   }
 
 .bottom{
     font-family: var( --main-font-montserrat); 
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
     display: block;
     margin: 0 auto;
-    width: 240px;
-    height: 65px;
-    margin-top: 30px;
+    width: 15rem;
+    height: 4.0625rem;
+    margin-top: 1.875rem;
     background-color: var(--color-main);
     border: none;
     border-radius: 3px;
@@ -220,6 +232,29 @@ header{
   }
 
 .bottom-padding{
-    padding-bottom: 114px;
+    padding-bottom: 7.125rem;
   }
   
+ 
+  
+
+
+  input:required:focus:valid {
+      outline: 3px solid green;
+  }
+
+  input:required:focus:invalid {
+    outline: 1px solid red;
+}
+
+textarea:required:focus:invalid {
+    outline: 1px solid red;
+}
+
+textarea:required:focus:valid {
+    outline: 3px solid green;
+}
+
+.input::placeholder{
+    color: #777777;
+}
