@@ -33,47 +33,34 @@ img {
 .header{
     background-image: url(../img/bg_img_header/bg_img_header.jpg);
     background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-    height: 540px;   
+    background-repeat: no-repeat; 
     text-align: center;
     background-position: center;
-    padding-top: 20px;
-    padding-bottom: 150px;
     color: #ffffff;
-    padding: 0 15px;
+    padding-top: 20px;
+    padding-bottom: 140px;
 }
 
 .navigation_button{
-    padding-top: 20px;
    text-align: center;
+   margin-bottom: 120px
 }
 
 .logo_botton{
-    border: none;
-    border-color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    border-radius: 50px;
     background-color: transparent;
-    width: 90px;
-    height: 36px;
+    padding: 7px 20px;
     color: #fff;
     outline: none;
     line-height: 1.2;
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 120px;
+    border-color: rgb(255, 255, 255);
 }
 
-.logo_botton:hover,
-.logo_botton:focus
-{
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 50px;
-    top: 16px;
-    width: 94px;
-    height: 40px;
-  
+.log{
+    border: none;
 }
 
 .logo_link{
@@ -105,20 +92,68 @@ img {
     text-align: center;
   }
   
+  .logo_link{
+    font-size: 20px;
+    font-family: var(--main-font-montserrat);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
 
+  .navigation{
+    margin-bottom: 38px;
+  }
 
+  .header_holidays{
+    font-size: 30px;
+    font-family: var(--main-font-montserrat);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
 
+  .holidays_text{
+    font-size: 18px;
+    font-family: var(--main-font-roboto);
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-bottom: 18px;
+  }
 
+  .holidays_link{
+      display: block;
+      text-decoration: none;
+      font-family: var(--main-font-montserrat);
+      font-weight: 700;
+      font-size: 14px;
+      color: rgb(255, 255, 255);
+      line-height: 1.2;
+      border-radius: 20px;
+      background-color: var(--color-main);
+      padding: 12px 50px;
+  }
 
-
-
-
-
+  .holidays_link:hover,
+  .holidays_link:focus
+  {
+      background-color: #fff;
+      color: var(--color-main);
+  }
+  
   /* /////////////////////// MOBILE_SECTION ///////////////////////// */
 
   .section{
       padding-top: 70px;
       padding-bottom: 56px;
+  }
+
+  .services_list{
+    width: 218px;
+    margin-bottom: 28px;
   }
 
   .services_title{
@@ -129,21 +164,67 @@ img {
       text-align: center;
       color: rgb(51, 51, 51);
       margin-bottom: 20px;
-      width: 256px;
   }
 
-  .services_list{
-      text-align: center;
-  }
-
-  .services_list-item{
+  .services_list-item:not(:last-child){
       margin-bottom: 30px;
-      width: 218px;
-
+      
   }
+
+  .img_wrapper{
+      position: relative;
+      width: 121px;
+      height: 121px;
+      margin-bottom: 20px;
+  }
+
+  .img_wrapper::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: -3px;
+    right: -8px;
+  }
+
+  .photo1::after{
+      background-image: url(../img/icons/1st_icons.png);
+      background-color: var(--color-main);
+  }
+
+  .photo2::after{
+    background-image: url(../img/icons/2nd_icons.png);
+    background-color: rgb(255, 165, 7);
+}
+  
+.photo3::after{
+    background-image: url(../img/icons/3rd_icons.png);
+    background-color: rgb(28, 215, 173);
+}
+
+.photo4::after{
+    background-image: url(../img/icons/4th_icons.png);
+    background-color: rgb(78, 115, 219);
+}
 
   .img_services{
+      display: block;
+      position: relative;
       margin-bottom: 20px;
+  }
+
+  .img_services::after{
+      display: block;
+      content: "";
+      position: absolute;
+      background-color: black;
+      border: 2px solid black;
   }
 
   .services_list_item_title{
@@ -163,4 +244,27 @@ img {
       line-height: 1.2;
   }
 
+  .services_link{
+    display: block;
+    font-family: var(--main-font-montserrat);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--color-main);
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid var(--color-main);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 13px 0;
+    cursor: pointer;
+  }
+
+  .services_link:hover,
+  .services_link:focus{
+      background-color: var(--color-main);
+      color: rgb(255, 255, 255);
+      border-color: transparent;
+  }
   
