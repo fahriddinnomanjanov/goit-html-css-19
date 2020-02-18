@@ -1,0 +1,166 @@
+@import url(../css/fonts.css);
+
+:root{
+    --color-main: rgb(255, 78, 80);;
+    --main-font-montserrat: 'Montserrat', sans-serif;
+    --main-font-roboto: 'Roboto Slab', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul,
+ol 
+{
+    list-style: none;
+}
+
+.container{
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.header{
+    background-image: url(../img/bg_img_header/bg_img_header.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    height: 540px;   
+    text-align: center;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 150px;
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+.navigation_button{
+    padding-top: 20px;
+   text-align: center;
+}
+
+.logo_botton{
+    border: none;
+    border-color: rgb(255, 255, 255);
+    background-color: transparent;
+    width: 90px;
+    height: 36px;
+    color: #fff;
+    outline: none;
+    line-height: 1.2;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.logo_botton:hover,
+.logo_botton:focus
+{
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    top: 16px;
+    width: 94px;
+    height: 40px;
+  
+}
+
+.logo_link{
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.Sign_up {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .Log_in {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* /////////////////////// MOBILE_SECTION ///////////////////////// */
+
+  .section{
+      padding-top: 70px;
+      padding-bottom: 56px;
+  }
+
+  .services_title{
+      font-family: var(--main-font-montserrat);
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 1.2;
+      text-align: center;
+      color: rgb(51, 51, 51);
+      margin-bottom: 20px;
+      width: 256px;
+  }
+
+  .services_list{
+      text-align: center;
+  }
+
+  .services_list-item{
+      margin-bottom: 30px;
+      width: 218px;
+
+  }
+
+  .img_services{
+      margin-bottom: 20px;
+  }
+
+  .services_list_item_title{
+      font-family: var(--main-font-montserrat);
+      font-size: 14px;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      font-weight: 700;
+      color: rgb(51, 51, 51);
+  } 
+
+  .services_list_item_text{
+      font-family: var( --main-font-roboto);
+      font-weight: 300;
+      font-size: 14px;
+      color: rgb(102, 102, 102);
+      line-height: 1.2;
+  }
+
+  
