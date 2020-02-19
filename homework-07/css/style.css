@@ -3,8 +3,7 @@
 :root{
     --color-main: rgb(254, 209, 54);
     --main-font-montserrat: 'Montserrat', sans-serif;
-    --main-font-roboto: 'Roboto Slab', sans-serif;
-    --main-font-noto: 'Noto Serif';
+    --main-font-roboto: 'Roboto', sans-serif;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -79,6 +78,7 @@ header{
 
 .first-section{
     padding-top: 4.375rem;
+    padding-bottom: 7.5rem;
 }
 
 .services-title{
@@ -153,7 +153,8 @@ header{
     font-weight: 400;
     line-height: 1.5625rem;
     color: #777777;
-    padding-bottom: 7.5rem;
+    text-align: center;
+    width: 17.125rem;
 }
 
 /* ////////////////////////////// SECOND SECTION ////////////////////////////// */
@@ -164,31 +165,34 @@ header{
     font-size: 2.5rem;
     text-transform: uppercase;
     color: white;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;  
     text-align: center;
     line-height: 3rem;
 
   }
 
 .second__section{
+    padding-bottom: 7.125rem;
     padding-top: 6.875rem;
     background-color: rgb(34, 34, 34);
     background-image: url(../img/background-img/2Map\ Image.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom 1.125rem;
 }
 
 .social__input{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 1.875rem;
 }
 
 .social__input-email{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 13.125rem;   
 }
+
+
 
 .section-input{
     font-family: var( --main-font-montserrat); 
@@ -200,6 +204,10 @@ header{
     border-radius: 3px;
   }
 
+  .section-input:not(:last-child){
+      margin-bottom: 1.625rem;
+  }
+
 .message-bottom{
     display: block;
     font-family: var( --main-font-montserrat); 
@@ -207,7 +215,6 @@ header{
     padding-left: 1.25rem;
     padding-top: 1.25rem;
     width: 28.4375rem;
-    /* height: 13.125rem; */
     text-transform: uppercase;
     border-radius: 3px;
     resize: none;
@@ -223,21 +230,12 @@ header{
     margin: 0 auto;
     width: 15rem;
     height: 4.0625rem;
-    margin-top: 1.875rem;
     background-color: var(--color-main);
     border: none;
     border-radius: 3px;
     color: white; 
     cursor: pointer;
   }
-
-.bottom-padding{
-    padding-bottom: 7.125rem;
-  }
-  
- 
-  
-
 
   input:required:focus:valid {
       outline: 3px solid green;
