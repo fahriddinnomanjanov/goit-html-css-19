@@ -1,21 +1,21 @@
-@media (min-width:768px){
+@media (min-width:48rem){
 
     .container{
-        width: 748px;
+        width: 46.75rem;
     }
 
 
 
     .header{
         background-image: url(../img/bg_img_header/bg_image_tablet.jpg);
-        padding-top: 38px;
-        padding-bottom: 234px;
+        padding-top: 2.375rem;
+        padding-bottom: 14.625rem;
     }
 
     .holidays_link {
-        padding: 12px 24px;
-        width: 255px;
-        letter-spacing: 0.8px;
+        padding: 0.75rem 1.5rem;
+        width: 15.9375rem;
+        letter-spacing: 0.05rem;
         }
 
     .navigation_button{
@@ -31,18 +31,18 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 150px;
+        margin-bottom: 9.375rem;
     }
 
     .header_holidays{
-        font-size: 52px;
-        width: 492px;
-        margin-bottom: 40px;
+        font-size: 3.25rem;
+        width: 30.75rem;
+        margin-bottom: 2.5rem;
     }
 
     .holidays_text{
-        font-size: 24px;
-        margin-bottom: 34px;
+        font-size: 1.5rem;
+        margin-bottom: 2.125rem;
     }
 
     .services_list-item:not(:last-child){
@@ -50,14 +50,16 @@
     }
 
     .services_title{
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 
     .services_list{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 460px;
+        width: 30rem;
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
     }
 
     .services_list-item{
@@ -73,26 +75,27 @@
      }
 
      .services_list-item:nth-child(odd){
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
      }
 
     .services_link{
-        padding: 12px 30px 10px 30px;
-        width: 190px;
-        letter-spacing: -0.8px;
+        padding: 0.75rem 1.875rem 0.625rem 1.875rem;
+        width: 11.875rem;
+        letter-spacing: -0.05rem;
+        margin: 0 auto;
     }
 }
-@media (min-width:768px) and (max-width:959px ){
+@media (min-width:48rem) and (max-width:59.9375rem ){
 
 
     .navigation{
-        padding: 0 40px;
+        padding: 0 2.5rem;
     }
 }
 
-@media (min-width:960px){
+@media (min-width:60rem){
     .container{
-        width: 940px;
+        width: 58.75rem;
     }
 
     .header{
@@ -106,13 +109,13 @@
     }
 
     .services_list{
-        width: 940px;
-        margin-bottom: 40px;
+        width: 58.75rem;
+        margin-bottom: 2.5rem;
         padding-bottom: 0;
     }
 
     .services_list-item:nth-child(odd){
-        margin-bottom: 0px;
+        margin-bottom: 0rem;
      }
     
     .services_list-item{
@@ -120,7 +123,7 @@
     }
 
     .section {
-        padding-bottom: 72px;
+        padding-bottom: 4.5rem;
     }
     
 }

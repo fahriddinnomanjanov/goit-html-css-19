@@ -8,7 +8,7 @@
 
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -141,6 +141,7 @@ img {
       font-size: 0.875rem;
       color: rgb(255, 255, 255);
       width: 268px;
+      margin: 0 auto;
       letter-spacing: -0.8px;
       line-height: 1.2;
       border-radius: 1.25rem;
@@ -164,6 +165,7 @@ img {
 
   .services_list-item{
     width: 78%;
+    margin: 0 auto;
   }
 
   .services_list{
@@ -189,6 +191,7 @@ img {
       width: 7.5625rem;
       height: 7.5625rem;
       margin-bottom: 1.25rem;
+      margin: 0 auto;
   }
 
   .img_wrapper::after{
