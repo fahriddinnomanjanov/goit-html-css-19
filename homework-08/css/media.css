@@ -12,7 +12,8 @@
 
     .holidays_link {
         padding: 12px 24px;
-        width: 226px;
+        width: 255px;
+        letter-spacing: 0.8px;
         }
 
     .navigation_button{
@@ -33,7 +34,7 @@
 
     .header_holidays{
         font-size: 52px;
-        width: 478px;
+        width: 492px;
         margin-bottom: 40px;
     }
 
@@ -42,23 +43,24 @@
         margin-bottom: 34px;
     }
 
+    .services_list-item:not(:last-child){
+        margin-bottom: 0;
+    }
+
     .services_title{
         margin-bottom: 32px;
     }
-/* //////////////////ul//////////////// */
+
     .services_list{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        padding-bottom: 38px;
-    
-    }
-/* ////////////// li//////////////////// */
-
-    .services_list_item{
-        padding-left: 30px;
+        justify-content: space-between;
+        width: 460px;
     }
 
+    .services_list-item{
+        width: 44%;
+    }
 
     .services_list-item:nth-child(2){
        order: 1;
@@ -68,22 +70,22 @@
         order: 2;
      }
 
-     .services_list-item:not(:nth-last-child(-n+2)){
+     .services_list-item:nth-child(odd){
         margin-bottom: 30px;
      }
 
     .services_link{
         padding: 12px 30px 10px 30px;
-        width: 192px;
+        width: 190px;
+        letter-spacing: -0.8px;
     }
-
 }
-
 
 @media (min-width:960px){
     .container{
         width: 940px;
     }
+
     .header{
         background-image: url(../img/bg_img_header/bg_image_desktop.jpg);
     }
@@ -91,10 +93,25 @@
     .services_list{
         display: flex;
         justify-content: space-between; 
+        width: 0;
+    }
+
+    .services_list{
+        width: 940px;
+        margin-bottom: 40px;
+        padding-bottom: 0;
+    }
+
+    .services_list-item:nth-child(odd){
+        margin-bottom: 0px;
+     }
+    
+    .services_list-item{
+        width: 25%;
     }
 
     .section {
         padding-bottom: 72px;
     }
+    
 }
-
