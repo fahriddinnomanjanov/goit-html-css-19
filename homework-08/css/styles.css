@@ -235,8 +235,6 @@ img {
       display: block;
       content: "";
       position: absolute;
-      background-color: black;
-      border: 0.125rem solid black;
   }
 
   .services_list_item_title{
