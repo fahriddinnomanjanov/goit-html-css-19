@@ -4,6 +4,8 @@
         width: 748px;
     }
 
+
+
     .header{
         background-image: url(../img/bg_img_header/bg_image_tablet.jpg);
         padding-top: 38px;
@@ -78,6 +80,13 @@
         padding: 12px 30px 10px 30px;
         width: 190px;
         letter-spacing: -0.8px;
+    }
+}
+@media (min-width:768px) and (max-width:959px ){
+
+
+    .navigation{
+        padding: 0 40px;
     }
 }
 
