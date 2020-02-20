@@ -1,0 +1,253 @@
+@import url(./fonts.css);
+
+:root{
+    --color-main: rgb(255, 78, 80);;
+    --main-font-montserrat: 'Montserrat', sans-serif;
+    --main-font-roboto: 'Roboto Slab', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol 
+{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.header{
+    background-image: url(../img/bg_img_header/bg_image_mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 1.25rem;
+    padding-bottom: 8.75rem;
+}
+
+.navigation_button{
+    text-align: center;
+    margin-bottom: 7.5rem
+ }
+ 
+ .logo_botton{
+     border: 0.125rem solid transparent;
+     border-radius: 3.125rem;
+     background-color: transparent;
+     padding: 0.4375rem 1.25rem;
+     color: #fff;
+     outline: none;
+     line-height: 1.2;
+     font-size: 0.875rem;
+     font-weight: 700;
+     border-color: rgb(255, 255, 255);
+ }
+
+ .log{
+    border: none;
+}
+
+.logo_link{
+    font-size: 1.25rem;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+}
+
+.navigation{
+    margin-bottom: 2.375rem;
+  }
+
+.header_holidays{
+    font-size: 1.875rem;
+    font-family: var(--main-font-montserrat);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    line-height: 1.2;
+    width: 280px;
+    letter-spacing: -0.8px;
+    margin-bottom: 1rem;
+  }
+
+  .holidays_text{
+    font-size: 1.125rem;
+    font-family: var(--main-font-roboto);
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-bottom: 1.125rem;
+    padding: 0 30px;
+  }
+
+  .holidays_link{
+      display: block;
+      text-decoration: none;
+      font-family: var(--main-font-montserrat);
+      font-weight: 700;
+      font-size: 0.875rem;
+      color: rgb(255, 255, 255);
+      width: 268px;
+      margin: 0 auto;
+      letter-spacing: -0.8px;
+      line-height: 1.2;
+      border-radius: 1.25rem;
+      background-color: var(--color-main);
+      padding: 0.75rem 3.125rem;
+  }
+
+  .holidays_link:hover,
+  .holidays_link:focus
+  {
+      background-color: #fff;
+      color: var(--color-main);
+  }
+
+  /* ////////////////////////// SECTION ///////////////////// */
+
+  .section{
+    padding-top: 4.375rem;
+    padding-bottom: 3.5rem;
+}
+
+.services_list-item{
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  .services_list{
+    margin-bottom: 1.75rem;
+  } 
+
+.services_title{
+    font-family: var(--main-font-montserrat);
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.2;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-bottom: 1.25rem;
+}
+
+.img_wrapper{
+    position: relative;
+    width: 7.5625rem;
+    height: 7.5625rem;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+    
+}
+
+.img_wrapper::after{
+  position: absolute;
+  display: block;
+  content: "";
+  width: 2.3125rem;
+  height: 2.3125rem;
+  border-radius: 50%;
+  border: 0.25rem solid white;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: -0.1875rem;
+  right: -0.5rem;
+}
+
+.photo1::after{
+    background-image: url(../img/icons/1st_icons.png);
+    background-color: var(--color-main);
+}
+
+.photo2::after{
+  background-image: url(../img/icons/2nd_icons.png);
+  background-color: rgb(255, 165, 7);
+}
+
+.photo3::after{
+  background-image: url(../img/icons/3rd_icons.png);
+  background-color: rgb(28, 215, 173);
+}
+
+.photo4::after{
+  background-image: url(../img/icons/4th_icons.png);
+  background-color: rgb(78, 115, 219);
+}
+
+.img_services::after{
+    display: block;
+    content: "";
+    position: absolute;
+}
+
+.services_list_item_title{
+    font-family: var(--main-font-montserrat);
+    font-size: 0.875rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    text-align: center;
+} 
+
+.services_list_item_text{
+    font-family: var( --main-font-roboto);
+    font-weight: 300;
+    font-size: 0.875rem;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.services_link{
+  display: block;
+  font-family: var(--main-font-montserrat);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.2;
+  color: var(--color-main);
+  text-align: center;
+  background-color: transparent;
+  border: 0.125rem solid var(--color-main);
+  border-radius: 1.25rem;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 0.8125rem 0;
+  cursor: pointer;
+}
+
+.services_link:hover,
+.services_link:focus{
+    background-color: var(--color-main);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+}
+
+@media (max-width:767px){
+    .services_list-item:not(:last-child){
+        margin-bottom: 1.875rem;
+    }
+}

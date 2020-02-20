@@ -1,0 +1,112 @@
+@media (min-width:768px){
+
+    .header{
+        background-image: url(../img/bg_img_header/bg_image_tablet.jpg);
+        padding-top: 38px;
+        padding-bottom: 234px;
+    }
+
+    .holidays_link {
+        padding: 12px 24px;
+        /* width: 255px; */
+        letter-spacing: 0.8px;
+        }
+
+    .navigation_button{
+        margin: 0;
+    }
+
+    .logo_link{
+         margin: 0;
+    }
+
+   
+
+    .header_holidays{
+        font-size: 52px;
+        width: 492px;
+        margin-bottom: 40px;
+    }
+
+    .holidays_text{
+        font-size: 24px;
+        margin-bottom: 34px;
+        padding: 0;
+    }
+
+ 
+
+    .services_title{
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+  
+
+    .services_list-item{
+        width: 44%;
+    }
+
+    .services_list-item:nth-child(2){
+       order: 1;
+    }
+
+    .services_list-item:nth-child(4){
+        order: 2;
+     }
+
+   
+
+    .services_link{
+        padding: 12px 30px 10px 30px;
+        width: 190px;
+        letter-spacing: -0.8px;
+        margin: 0 auto;
+    }
+}
+@media (min-width:768px) and (max-width:959px ){
+
+
+    .navigation{
+        padding: 0 40px;
+    }
+    .services_list-item:nth-child(odd){
+        margin-bottom: 30px;
+     }
+
+     
+}
+
+@media (min-width:960px){
+    .container{
+        width: 940px;
+    }
+
+    .header{
+        background-image: url(../img/bg_img_header/bg_image_desktop.jpg);
+    }
+
+
+    .services_list{
+        width: 940px;
+        margin-bottom: 40px;
+        padding-bottom: 0;
+    }
+
+    .navigation{
+        margin-bottom: 150px;
+    }
+
+    .services_list-item:nth-child(odd){
+        margin-bottom: 0px;
+     }
+    
+    .services_list-item{
+        width: 25%;
+    }
+
+    .section {
+        padding-bottom: 72px;
+    }
+    
+}
