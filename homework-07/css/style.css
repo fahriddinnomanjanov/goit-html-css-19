@@ -3,7 +3,7 @@
 :root{
     --color-main: rgb(254, 209, 54);
     --main-font-montserrat: 'Montserrat', sans-serif;
-    --main-font-roboto: 'Roboto', sans-serif;
+    --main-font-roboto: 'Roboto Slab', sans-serif;
 }
 
 .visually-hidden:not(:focus):not(:active),
